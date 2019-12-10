@@ -8,8 +8,8 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f9d256",
-    "navigationBarTitleText": "投票",
-    "navigationBarTextStyle": "white"
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#dddddd",
