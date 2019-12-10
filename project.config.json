@@ -9,9 +9,9 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
 		"checkInvalidKey": true,
-		"coverView": true,
 		"checkSiteMap": false,
 		"uploadWithSourceMap": true,
 		"babelSetting": {
@@ -21,9 +21,9 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.9.1",
+	"libVersion": "2.9.4",
 	"appid": "wxe7c4ac8324f60b85",
-	"projectname": "cheUshop",
+	"projectname": "Ushop",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

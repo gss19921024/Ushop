@@ -2,45 +2,38 @@
   "pages": [
     "pages/index/index",
     "pages/authorize/authorize",
-    "pages/carOwner/carOwner",
-    "pages/carts/carts",
-    "pages/my/my"
+    "pages/brag/brag",
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#BC9775",
+    "navigationBarBackgroundColor": "#f9d256",
     "navigationBarTitleText": "投票",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#6e6d6b",
-    "selectedColor": "#4a90e2",
+    "color": "#dddddd",
+    "selectedColor": "#f9d256",
     "borderStyle": "black",
     "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/icon_home_line.png",
-        "selectedIconPath": "images/icon_home_solid.png",
-        "text": "首页"
+        "iconPath": "images/indexs.png",
+        "selectedIconPath": "images/index.png",
+        "text": "送礼物"
       },
       {
-        "pagePath": "pages/carOwner/carOwner",
-        "iconPath": "images/icon_monitor_line.png",
-        "selectedIconPath": "images/icon_monitor_solid.png",
-        "text": "发现"
+        "pagePath": "pages/brag/brag",
+        "iconPath": "images/brags.png",
+        "selectedIconPath": "images/brag.png",
+        "text": "吹牛"
       },
       {
-        "pagePath": "pages/carts/carts",
-        "iconPath": "images/carts.png",
-        "selectedIconPath": "images/icon_carts.png",
-        "text": "购物车"
-      },
-      {
-        "pagePath": "pages/my/my",
-        "iconPath": "images/icon_me_line.png",
-        "selectedIconPath": "images/icon_me_solid.png",
-        "text": "我的"
+        "pagePath": "pages/order/order",
+        "iconPath": "images/orders.png",
+        "selectedIconPath": "images/order.png",
+        "text": "订单记录"
       }
     ]
   },
