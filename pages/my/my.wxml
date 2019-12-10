@@ -1,0 +1,3 @@
+<view>
+   {{userInfo.nickName}}
+</view>
