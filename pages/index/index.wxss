@@ -1,0 +1,22 @@
+.topView {
+    width: 750rpx;
+    height: 305rpx;
+    background: #f9d256;
+}
+.topView text {
+    font-size: 30rpx;
+    color: #333333;
+    display: block;
+    text-align: center;
+    padding-top: 30rpx;
+}
+.banner-box {
+    height: 350rpx;
+    margin-top: 30rpx;
+}
+.topView image {
+    width: 702rpx;
+    height: 350rpx;
+    display: block;
+    margin: 0 auto;
+}

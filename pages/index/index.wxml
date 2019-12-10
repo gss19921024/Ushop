@@ -1,5 +1,17 @@
-<view>
-    首页
+<view class="page">
+    <view class="topView">
+        <text>青年创意礼品的聚集地</text>
+        <!--轮播图-->
+        <swiper autoplay="{{autoplay}}" class="banner-box" duration="{{duration}}" indicator-dots="{{indicatorDots}}" interval="{{interval}}" circular="{{true}}">
+            <swiper-item wx:for="{{bannerImgaes}}" wx:key="this"
+                         data-index="{{ index }}">
+                <image class="slide-image" src="{{item.image}}"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+
+
+
 
 
 
