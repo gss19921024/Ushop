@@ -10,6 +10,66 @@
         </swiper>
     </view>
 
+    <view class="giftView">
+        <view>
+            <image src="/images/gift.png" style="width: 43rpx;height: 41rpx"></image>
+            <text>挑选礼物</text>
+        </view>
+        <view style="color: #999999">-------------</view>
+        <view>
+            <image src="/images/pay.png" style="width: 46rpx;height: 46rpx"></image>
+            <text>付款送礼</text>
+        </view>
+        <view style="color: #999999">-------------</view>
+        <view>
+            <image src="/images/call.png" style="width: 49rpx;height: 38rpx"></image>
+            <text>快递送上门</text>
+        </view>
+    </view>
+
+    <view class="giftBgView">
+        <image src="/images/giftBg.png"></image>
+
+    </view>
+
+
+    <view class="giveView">
+        <view class="tops">
+            <view class="topsView">
+                <view class="topsView1">
+                    <text></text>
+                    <text style="margin-left: 30rpx">一对一送礼</text>
+                </view>
+                <view class="topsView2">
+                    <text style="margin-right: 10rpx">其它玩法</text>
+                    <image src="/images/arrows.png"></image>
+                </view>
+            </view>
+
+            <view class="topstextView">
+                直接送给指定好友领取
+            </view>
+        </view>
+
+        <view class="foots">
+            <view class="topsView">
+                <view class="topsView1">
+                    <text></text>
+                    <text style="margin-left: 30rpx">写祝福语</text>
+                    <text style="margin-left: 40rpx;color: #bbbbbb;font-size: 18rpx">（最多可输入200字）</text>
+                </view>
+            </view>
+            <view class="footstextView">
+                <textarea bindinput="bindTextAreaBlur" maxlength="200" placeholder="请填写你的祝福语哦" placeholder-style="color:#999999" value="{{textareaValue}}"/>
+            </view>
+
+        </view>
+
+    </view>
+
+    <view class="serviceView">
+        <image src="/images/service.png"></image>
+    </view>
 
 
 

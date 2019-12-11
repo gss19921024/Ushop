@@ -11,6 +11,12 @@ Page({
             {image: '../../images/banner3.png'}
         ]
     },
+    bindTextAreaBlur: function(e) {
+        this.setData({
+            textareaValue: e.detail.value
+        })
+        console.log(this.data.textareaValue)
+    },
     onLoad: function () {
 
     }

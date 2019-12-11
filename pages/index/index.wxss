@@ -1,3 +1,8 @@
+.page {
+    background: #f8f6ec;
+    height: 100%;
+    position: relative;
+}
 .topView {
     width: 750rpx;
     height: 305rpx;
@@ -20,3 +25,140 @@
     display: block;
     margin: 0 auto;
 }
+.giftView {
+    width: 545rpx;
+    height: 125rpx;
+    margin: 160rpx 0 0 102.5rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18rpx;
+    color: #333333;
+}
+.giftView view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.giftBgView image {
+    width: 702rpx;
+    height: 200rpx;
+    margin: 0 24rpx;
+}
+
+.giveView {
+    width: 690rpx;
+    height: 300rpx;
+    background: #fff;
+    margin: 0 30rpx 20rpx 30rpx;
+    border-radius: 20rpx;
+}
+.giveView .tops {
+    font-size: 24rpx;
+    color: #999999;
+    width: 665rpx;
+    height: 125rpx;
+    border-bottom: 1rpx dashed #999999;
+    margin: 0 auto;
+
+}
+.topsView {
+    color: #333333;
+    width: 630rpx;
+    margin: 0 auto;
+    padding-top: 25rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.topsView1 {
+    display: flex;
+    align-items: center;
+}
+.topsView1 text:nth-child(1) {
+    display: block;
+    width: 16rpx;
+    height: 16rpx;
+    background: #ffb503;
+    border-radius: 8rpx;
+}
+.topsView2 {
+    display: flex;
+    align-items: center;
+}
+.topsView2 image {
+    width: 22rpx;
+    height: 12rpx;
+}
+.topstextView {
+    padding: 10rpx 0 0 63.5rpx;
+}
+
+.giveView .foots {
+    font-size: 24rpx;
+    color: #999999;
+    width: 665rpx;
+    margin: 0 auto;
+}
+.footstextView {
+    height: 90rpx;
+    margin: 10rpx 0 0 63.5rpx;
+}
+.footstextView textarea {
+    height: 90rpx;
+}
+
+.serviceView {
+    width: 90rpx;
+    height: 90rpx;
+    position: fixed;
+    right: 25rpx;
+    bottom: 5rpx;
+    z-index: 9999;
+}
+.serviceView image {
+    width: 90rpx;
+    height: 90rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
