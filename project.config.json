@@ -48,12 +48,19 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 1,
 			"list": [
 				{
 					"id": -1,
 					"name": "pages/found/found",
 					"pathName": "pages/found/found",
+					"query": "1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/brag/brag",
+					"pathName": "pages/brag/brag",
 					"query": "1",
 					"scene": null
 				}

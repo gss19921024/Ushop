@@ -1,0 +1,83 @@
+.page {
+    width: 100%;
+    height: 100%;
+    background: #f9d256;
+}
+.topView {
+    width: 710rpx;
+    margin: 0 20rpx;
+}
+.topView {
+    color: #333333;
+    font-size: 24rpx;
+    display: flex;
+    height: 50rpx;
+    line-height: 50rpx;
+}
+.topViewText1 {
+    font-size: 60rpx;
+}
+.topViewText2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 27rpx;
+    margin-left: 15rpx;
+}
+.content {
+    margin: 0 20rpx 20rpx 20rpx;
+}
+.contentView {
+    width: 710rpx;
+    height: 350rpx;
+    background: #fff;
+    border-radius: 20rpx;
+    margin-top: 20rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentView image {
+    width: 306rpx;
+    height: 310rpx;
+    margin-left: 20rpx;
+}
+.contentViewRight {
+    width: 336rpx;
+    margin-right: 20rpx;
+    font-size: 30rpx;
+    color: #333;
+}
+.title {
+    line-height: 34rpx;
+}
+.award {
+    margin-top: 50rpx;
+    width: 170rpx;
+    height: 55rpx;
+    line-height: 55rpx;
+    text-align: center;
+    background: #f9d256;
+    border-radius: 27.5rpx;
+    font-size: 28rpx;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
