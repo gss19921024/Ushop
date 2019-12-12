@@ -1,0 +1,7 @@
+<view class="page">
+    <image src="/images/2.png"></image>
+    <view class="text">
+        <text class='time'>{{time}}s</text>
+        <text bindtap="goHome"> 进入</text>
+    </view>
+</view>

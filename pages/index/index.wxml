@@ -67,7 +67,7 @@
 
     </view>
 
-    <view class="serviceView">
+    <view class="serviceView" catchtap="ballClickEvent" style="bottom:{{ballBottom}}px;right:{{ballRight}}px;" bindtouchmove="ballMoveEvent">
         <image src="/images/service.png"></image>
     </view>
 
