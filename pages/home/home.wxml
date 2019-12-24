@@ -1,7 +1,49 @@
 <view class="page">
-    <image src="/images/2.png"></image>
+
     <view class="text">
         <text class='time'>{{time}}s</text>
         <text bindtap="goHome"> 进入</text>
+    </view>
+
+    <view class="weather">
+        <!--sunny-->
+        <view class="sunny">
+            <text class="sun"></text>
+        </view>
+        <!--cloudy-->
+        <view class="cloudy">
+            <text class="cloud"></text>
+            <text class="cloud"></text>
+        </view>
+        <!--snowy-->
+        <view class="snowy">
+            <text class="snowman"></text>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </view>
+        <!--stormy-->
+        <view class="stormy">
+            <text class="cloud"></text>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </view>
     </view>
 </view>
